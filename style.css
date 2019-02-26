@@ -1,0 +1,48 @@
+.btnSuccess{
+	position: relative;
+	top: 40vh;
+}
+
+.confetti{
+	position: absolute;
+	top: 95%;
+	border: 1px solid black;
+	width: 10px;
+	height: 10px;
+	border-radius: 20px;
+	animation-name: ConfettiAnimation;
+	animation-duration: 4s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes ConfettiAnimation{
+	0%{
+		top: 0%;
+		transform: rotate3d(0,0,0, 0deg);
+	};
+}
+
+
+.down0{
+	transform: rotate3d(1,1,1,650deg);
+}
+
+.down1{
+	transform: rotate3d(1,1,1, 1060deg);
+}
+
+.down2{
+	transform: rotate3d(1,0,1, 900deg);
+}
+
+.down3{
+	transform: rotate3d(0,1,1, 500deg);
+}
+
+.down4{
+	transform: rotate3d(1,1,0, 700deg);
+}
+
+.down5{
+	transform: rotate3d(1,1,0, 450deg);
+}
